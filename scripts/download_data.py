@@ -13,7 +13,7 @@ import json
 import os
 from fredapi import Fred
 from functions import *
-fred = Fred(api_key='0d3a129121b29e16035b20ea3947ecf5')
+fred = Fred(api_key='[INSERT YOUR API KEY HERE]')
 
 # get historical market data
 etfs = ["SPY","QQQ","DIA","EEM","IWM","IWO","IWF",
